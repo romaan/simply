@@ -4,9 +4,9 @@ I have organised a few simple programming questions and answers. Anyone can use 
 
 # Strings
 
-- 001 Find the first non-repeatd character in a string
-- 002 Reverse a string iteratively
-- 003 Reverse a string recursively
+- 001 Find the first non-repeated character in a string
+- 002 Reverse a string iteratively and recursively
+- 003 Determine if a string has all unique characters. What if you can not use additional data structures?
 - 004 Check if string is a palindrome
 - 005 Check if a string is composed of all unique characters
 - 006 Determine if a string is an int or double
