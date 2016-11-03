@@ -2,6 +2,12 @@
 
 I have organised a few simple programming questions and answers. Anyone can use this to practise simple programming concepts. I would encourage to read the questions and develop your own solutions, if required, refer to the answers mentioned in this repository.
 
+# Numbers and bitwise operators
+
+- 001 Swap two numbers
+- 002 Reverse a number
+- 003 Print all the prime numbers in the range 1 to N
+
 # Strings
 
 - 001 Find the first non-repeated character in a string
@@ -14,6 +20,15 @@ I have organised a few simple programming questions and answers. Anyone can use 
 
 # Stack and Queue
 
+- 001 Perform stack operations using arrays
+- 002 Perform queue operations using arrays
+
+
+# Matrix
+
+- 001 Add two matrices
+- 002 Multiply two matrices
+- 003 Rotate a matrix
 
 # Trees
 
@@ -29,11 +44,11 @@ I have organised a few simple programming questions and answers. Anyone can use 
 
 # Sorting
 
-- Implement bubble sort and mention the efficiency
-- Implement selection sort and mention the efficiency
-- Implement insertion sort  and mention the efficiency
-- Implement merge sort and mention the efficiency
-- Implement quick sort and mention the efficiency
+- 001 Implement bubble sort and mention the efficiency
+- 002 Implement selection sort and mention the efficiency
+- 003 Implement insertion sort  and mention the efficiency
+- 004 Implement merge sort and mention the efficiency
+- 005 Implement quick sort and mention the efficiency
 
 # Linked lists
 
