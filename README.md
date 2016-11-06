@@ -2,15 +2,15 @@
 
 I have organised a few simple programming questions and answers. Anyone can use this to practise simple programming concepts. I would encourage to read the questions and develop your own solutions, if required, refer to the answers mentioned in this repository.
 
-# Numbers and bitwise operators
+# Numbers and bitwise operators (NB)
 
-- 001 Swap two numbers
+- 001 Swap two numbers - DoneR
 - 002 Reverse a number
 - 003 Print all the prime numbers in the range 1 to N
 
-# Strings
+# Strings (STR)
 
-- 001 Find the first non-repeated character in a string
+- 001 Find the first non-repeated character in a string - Partially Done
 - 002 Reverse a string iteratively and recursively
 - 003 Determine if a string has all unique characters. What if you can not use additional data structures?
 - 004 Check if string is a palindrome
@@ -18,11 +18,10 @@ I have organised a few simple programming questions and answers. Anyone can use 
 - 006 Determine if a string is an int or double
 - 007 Print all permutations of a string
 
-# Stack and Queue
+# Stack and Queue (SQ)
 
 - 001 Perform stack operations using arrays
 - 002 Perform queue operations using arrays
-
 
 # Matrix
 
@@ -52,4 +51,6 @@ I have organised a few simple programming questions and answers. Anyone can use 
 
 # Linked lists
 
-
+- 001 Create a linked list to insert or delete at a given position
+- 002 Implement insertion and deletion using doubly linked list
+- 003 
