@@ -9,6 +9,7 @@ I have organised a few simple programming questions and answers. Anyone can use 
 - 003 Print all the prime numbers in the range 1 to N
 - 004 Search for an element in an array (use sequential, binary search)
 - 005 Find a non duplicate element in an array of duplicates (Ex: [1,2,3,4,4,2,1] Answer: 3
+- 006 Find square root of a number without using built in libraries
 
 # Strings (STR)
 
@@ -19,6 +20,8 @@ I have organised a few simple programming questions and answers. Anyone can use 
 - 005 Check if a string is composed of all unique characters
 - 006 Determine if a string is an int or double
 - 007 Print all permutations of a string
+- 008 Write a program to find if two strings are anagrams or not?
+- 009 Write a program to replace space with %20 in efficient way.
 
 # Stack and Queue (SQ)
 
