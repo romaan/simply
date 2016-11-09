@@ -4,16 +4,17 @@ I have organised a few simple programming questions and answers. Anyone can use 
 
 # Numbers and bitwise operators (NB)
 
-- 001 Swap two numbers - DoneR
-- 002 Reverse a number
-- 003 Print all the prime numbers in the range 1 to N
+- 001 Swap two numbers - Done
+- 002 Reverse a number - Done
+- 003 Print all the prime numbers in the range 1 to N - Done
 - 004 Search for an element in an array (use sequential, binary search)
 - 005 Find a non duplicate element in an array of duplicates (Ex: [1,2,3,4,4,2,1] Answer: 3
-- 006 Find square root of a number without using built in libraries
+- 006 Find if the double number is equal to another double number within the defined accuracy
+- 007 Find square root of a number without using built in libraries
 
 # Strings (STR)
 
-- 001 Find the first non-repeated character in a string - Partially Done
+- 001 Find the first non-repeated character in a string - Done
 - 002 Reverse a string iteratively and recursively
 - 003 Determine if a string has all unique characters. What if you can not use additional data structures?
 - 004 Check if string is a palindrome

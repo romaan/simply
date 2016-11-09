@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>rk</groupId>
-  <artifactId>str001</artifactId>
+  <artifactId>nb003</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>str001</name>
+  <name>nb003</name>
   <url>http://maven.apache.org</url>
 
   <properties>
