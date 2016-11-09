@@ -1,36 +1,34 @@
 package rk;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.lang.Exception;
 /**
  * Program implementing stack and its operations using List
  *
  */
 public class MyStack<T>
 {
-    T[] stack;
+    private T[] stack;
+    private int ptr = -1;
 
     public MyStack(int size) {
-        stack = new T[size];
+        stack = (T[]) new Object[size];
     }
 
-    public void push(T element) throws StackOverflowException {
-        if (stack.size())
+    public T push(T element) throws StackOverflowException {
+        if (ptr + 1 == stack.length)
             throw new StackOverflowException("Stack overflow");
-        stack.add(element);
+        stack[++ptr] = element;
+        return element;
     }
 
     public T pop() throws StackUnderflowException  {
-        if (stack.size() == 0)
+        if (ptr == -1)
             throw new StackUnderflowException("Stack underflow");
-        return stack.remove(stack.size() - 1);
+        return stack[ptr--];
     }
 
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
-        MyStack<Integer> s = new MyStack<Integer>();
+        MyStack<Integer> s = new MyStack<Integer>(10);
         try {
             s.push(23);
         } catch (StackOverflowException e) {
