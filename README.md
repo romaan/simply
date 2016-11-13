@@ -8,9 +8,12 @@ I have organised a few simple programming questions and answers. Anyone can use 
 - 002 Reverse a number - Done
 - 003 Print all the prime numbers in the range 1 to N - Done
 - 004 Search for an element in an array (use sequential, binary search) - Done
-- 005 Find a non duplicate element in an array of duplicates (Ex: [1,2,3,4,4,2,1] Answer: 3
-- 006 Find if the double number is equal to another double number within the defined accuracy
+- 005 Find a non duplicate element in an array of duplicates (Ex: [1,2,3,4,4,2,1] Answer: 3 - Done
+- 006 Find if the double number is equal to another double number within the defined accuracy - Done
 - 007 Find square root of a number without using built in libraries
+- 008 Find the fibonacci series
+- 009 Find LCM
+- 010 Find GCD
 
 # Strings (STR)
 
@@ -26,16 +29,16 @@ I have organised a few simple programming questions and answers. Anyone can use 
 
 # Stack and Queue (SQ)
 
-- 001 Perform stack operations using arrays
+- 001 Perform stack operations using arrays - Done
 - 002 Perform queue operations using arrays
 
-# Matrix
+# Matrix (MT)
 
 - 001 Add two matrices
 - 002 Multiply two matrices
 - 003 Rotate a matrix
 
-# Trees
+# Trees (TR)
 
 - 001 Implement a BST (Binary Search Tree) with insert and delete functions
 - 002 Print a tree using Breadth First Search
@@ -49,14 +52,20 @@ I have organised a few simple programming questions and answers. Anyone can use 
 
 # Sorting (SRT)
 
-- 001 Implement bubble sort and mention the efficiency
+- 001 Implement bubble sort and mention the efficiency - Done
 - 002 Implement selection sort and mention the efficiency
 - 003 Implement insertion sort  and mention the efficiency
 - 004 Implement merge sort and mention the efficiency
 - 005 Implement quick sort and mention the efficiency
 
-# Linked lists
+# Linked lists (LL)
 
 - 001 Create a linked list to insert or delete at a given position
 - 002 Implement insertion and deletion using doubly linked list
 - 003 
+
+# Algorithms (AG)
+
+- 001 Program to solve towers of hanoii - Done
+- 002 Program to solve knapsack problem
+- 003 Program to find the sum of immutable rectangles
