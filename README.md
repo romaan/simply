@@ -38,6 +38,8 @@ I have organised a few simple programming questions and answers. Anyone can use 
 - 001 Add two matrices
 - 002 Multiply two matrices
 - 003 Rotate a matrix
+- 004 Calculate the absolute difference between the sum of diagonals in a matrix
+- 005 Determine if the matrix can if sorted lexicographically i.e. every item in row should be sorted and every item in column should be sorted
 
 # Trees (TR)
 
