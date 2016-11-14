@@ -18,7 +18,7 @@ I have organised a few simple programming questions and answers. Anyone can use 
 # Strings (STR)
 
 - 001 Find the first non-repeated character in a string - Done
-- 002 Reverse a string iteratively and recursively
+- 002 Reverse a string iteratively and recursively - Done
 - 003 Determine if a string has all unique characters. What if you can not use additional data structures?
 - 004 Check if string is a palindrome
 - 005 Check if a string is composed of all unique characters
@@ -26,6 +26,7 @@ I have organised a few simple programming questions and answers. Anyone can use 
 - 007 Print all permutations of a string
 - 008 Write a program to find if two strings are anagrams or not?
 - 009 Write a program to replace space with %20 in efficient way.
+- 010 Write a program to reverse characters of a words in a string
 
 # Stack and Queue (SQ)
 
@@ -70,3 +71,4 @@ I have organised a few simple programming questions and answers. Anyone can use 
 - 001 Program to solve towers of hanoii - Done
 - 002 Program to solve knapsack problem
 - 003 Program to find the sum of immutable rectangles
+- 004 Program to find the maximum profit by buying and selling stocks in a day
