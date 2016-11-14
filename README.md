@@ -57,6 +57,7 @@ I have organised a few simple programming questions and answers. Anyone can use 
 - 003 Implement insertion sort  and mention the efficiency
 - 004 Implement merge sort and mention the efficiency
 - 005 Implement quick sort and mention the efficiency
+- 006 Implement heap sort alogirithm and measure the efficiency
 
 # Linked lists (LL)
 
