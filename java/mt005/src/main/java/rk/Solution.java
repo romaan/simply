@@ -1,8 +1,7 @@
+package rk;
+
 import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 /*
  * Sort a matrix lexicographically.
@@ -44,48 +43,54 @@ YES
 
 public class Solution {
 
+    public static boolean isSorted(char [][][]input, int k) {
+        char temp;
+        /* Check if possible every test case */
+        // For each row in matrix
+        for (int x = 0; x < input[k].length; x++) {
+            // Sort each element with swap operation inside a row
+            for (int i = 0; i < input[k].length - 1; i++) {
+                for (int j = 0; j < input[k].length - i - 1; j++) {
+                    if (input[k][x][j] > input[k][x][j+1]) {
+                        temp = input[k][x][j];
+                        input[k][x][j] = input[k][x][j+1];
+                        input[k][x][j+1] = temp;
+                    }
+                }
+            }
+
+            if (x > 0) {
+                // Check vertically if they are sorted, if not print NO and halt
+                for (int y = 0; y < input[k].length - 1; y++) {
+                    if (input[k][x][y] < input[k][x - 1][y]) {
+                        return false;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         /* Input */
         Scanner sc = new Scanner(System.in);
         int testcases = sc.nextInt();
+        sc.nextLine();
         char [][][] input = new char[testcases][][];
-        char temp;
         for (int k = 0; k < testcases; k++) {
             int size = sc.nextInt();
+            sc.nextLine();
             input[k] = new char[size][size];
             for (int i = 0; i < size; i ++)
-                for (int j = 0; j < size; j++) {
-                    try {
-                        input[k][i][j] = (char) (System.in.read());
-                    } catch(IOException e) {
-                        System.out.println("IOException has been caught");
-                    }
-                }
+                input[k][i] = sc.nextLine().toCharArray();
         }
-        /* Check if possible every test case */
         for (int k = 0; k < input.length; k++) {
-            // For each row in matrix
-            for (int x = 0; x < input[k].length; x++) {
-                // Sort each element with swap operation inside a row
-                for (int i = 0; i < input[k].length - 1; i++) {
-                    for (int j = 0; j < input[k].length - i - 1; j++) {
-                        if (input[k][x][j] > input[k][x][j+1]) {
-                            temp = input[k][x][j];
-                            input[k][x][j] = input[k][x][j+1];
-                            input[k][x][j+1] = temp;
-                        }
-                    }
-                }
-            }
-            // Check vertically if they are sorted, if not print NO and halt
-            for (int x = 0; x < input[k].length; x++) {
-                for (int y = 0; y < input[k].length - 1; y++) {
-                    if (input[k][y][x] > input[k][y + 1][x]) {
-                        System.out.println("NO");
-                    }
-                }
+            boolean sorted = isSorted(input, k);
+            if (sorted) {
+                System.out.println("YES");
+            } else {
+                System.out.println("NO");
             }
         }
-        System.out.println("YES");
     }
 }
