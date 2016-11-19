@@ -14,7 +14,7 @@ I have organised a few simple programming questions and answers. Anyone can use 
 - 008 Find the fibonacci series
 - 009 Find LCM
 - 010 Find GCD
-- 011 Rotate an array
+- 011 Find all the numbers such that n + a = n ^ a where n is the input and a is [0..n]
 
 # Strings (STR)
 
