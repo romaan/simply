@@ -14,6 +14,7 @@ I have organised a few simple programming questions and answers. Anyone can use 
 - 008 Find the fibonacci series
 - 009 Find LCM
 - 010 Find GCD
+- 011 Rotate an array
 
 # Strings (STR)
 
@@ -27,6 +28,7 @@ I have organised a few simple programming questions and answers. Anyone can use 
 - 008 Write a program to find if two strings are anagrams or not?
 - 009 Write a program to replace space with %20 in efficient way.
 - 010 Write a program to reverse characters of a words in a string
+- 011 Write a program to reduce string with repeated characters (Ex: aab -> ab, abbbac -> c)
 
 # Stack and Queue (SQ)
 
@@ -74,3 +76,9 @@ I have organised a few simple programming questions and answers. Anyone can use 
 - 002 Program to solve knapsack problem
 - 003 Program to find the sum of immutable rectangles
 - 004 Program to find the maximum profit by buying and selling stocks in a day
+
+# Graphs (GR)
+
+- 001 Program to DFS a graph
+- 002 Program to BFS a graph
+- 003 Program to calculate the shortest path in graph using BFS
