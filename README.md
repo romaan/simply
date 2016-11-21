@@ -34,6 +34,7 @@ I have organised a few simple programming questions and answers. Anyone can use 
 
 - 001 Perform stack operations using arrays - Done
 - 002 Perform queue operations using arrays
+- 003 Implement a circular queue
 
 # Matrix (MT)
 
