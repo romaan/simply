@@ -15,6 +15,7 @@ I have organised a few simple programming questions and answers. Anyone can use 
 - 009 Find LCM
 - 010 Find GCD
 - 011 Find all the numbers such that n + a = n ^ a where n is the input and a is [0..n]
+- 012 Flip the bits of an unsigned 32 bit integer
 
 # Strings (STR)
 
@@ -29,6 +30,7 @@ I have organised a few simple programming questions and answers. Anyone can use 
 - 009 Write a program to replace space with %20 in efficient way.
 - 010 Write a program to reverse characters of a words in a string
 - 011 Write a program to reduce string with repeated characters (Ex: aab -> ab, abbbac -> c)
+- 012 Write a program to count the number of letters to remove from 2 strings to make it an anagram.
 
 # Stack and Queue (SQ)
 
