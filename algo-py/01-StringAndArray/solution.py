@@ -30,3 +30,21 @@ def evaluate_reverse(expression):
 			temp.append(eval(b + token + a))
 	return temp.pop()
 
+def isomorphic(a_string, b_string):
+	"""
+	>>> isomorphic("hello", "tello")
+	True
+	>>> isomorphic("add", "egg")
+	True
+	>>> isomorphic("rattle", "seattle")
+	False
+	"""
+	if len(a_string) != len(b_string):
+		return False
+	aDict = {}
+	for idx, ch in enumerate(a_string):
+		if ch not in aDict:
+			aDict[ch] = b_string[idx]
+		elif aDict[ch] != b_string[idx]:
+			return False
+	return True
